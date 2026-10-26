@@ -1,27 +1,21 @@
-# Control System Command Signal Analysis (MATLAB)
+# MATLAB Control-System Signal Analysis
 
-This project demonstrates plotting and analysis of common control system command signals using MATLAB.
+A MATLAB practice project that visualizes sine, square, ramp, and step command signals alongside reference feedback, current, and velocity data.
 
-The following command signals are analyzed:
+## Contents
 
-• Sine Command  
-• Square Command  
-• Ramp Command  
-• Step Command  
+- MATLAB plotting script in `code/matlab_plotting_code.m`
+- Input data in `all_cmds.txt`
+- Existing plots included in the repository
 
-For each command input, the system response is visualized through:
+## Run
 
-• Feedback signal  
-• Current response  
-• Velocity response  
+Open MATLAB with the repository root as the current folder, then run:
 
-The data is loaded from a reference dataset file and plotted using MATLAB scripting.
+```matlab
+run("code/matlab_plotting_code.m")
+```
 
-## Learning Note
+The script reads `all_cmds.txt` from the current folder and generates five figures. Run it from the repository root so the data file can be found.
 
-I am currently learning MATLAB plotting and control signal visualization.  
-For this practice project, I used a reference data file and studied plotting techniques.
-
-I am new to MATLAB plotting and created this project as a learning exercise while exploring concepts through internet resources and AI-assisted learning tools.
-
-This repository documents my practice and progress in understanding signal visualization and system response analysis.
+This repository documents a learning exercise in MATLAB plotting and control-signal visualization.
